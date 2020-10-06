@@ -32,7 +32,6 @@ function handleInput() {
     showBgColor.innerHTML = bgColor
     
     const textBox = text.value
-    display.style.textBox = textBox
     display.innerHTML = textBox
 }
 
