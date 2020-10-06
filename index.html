@@ -4,10 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Student Info</title>
+    <title>Ryan Lee - Final - Web 1.0</title>
 </head>
 <body>
-    
+    <div class="form-box">
+        <section id="student-info">
+            <h1>Ryan Lee</h1>
+            <p>My favorite color is purple and I wear Vans</p>
+        </section>
+        <section id="data-input">
+        <div class="fontsize">
+            <h1>Font Styler</h1>
+            <label>
+                <input type="number" id="input-size">
+            </label>
+        </div>
+        <div class="fontfamily">
+            <h1>Font Family</h1>
+            <label>
+                <select name="font-family" id="select-font">
+                    <option value="helvetica">Helvetica</option>
+                    <option value="arial">Arial</option>
+                    <option value="timesnewroman">Times New Roman</option>
+                    <option value="georgia">Georgia</option>
+                </select>
+            </label>
+        </div>
+        <div class="fontcolor">
+            <h1>Font Color</h1>
+            <label>
+                <input type="color" id="input-color" value="#000">
+            </label>
+        </div>
+        <div class="bgcolor">
+            <h1>Background Color</h1>
+            <label>
+                <input type="color" id="input-bg-color" value="#fff">
+            </label>
+        </div>
+        <div class="entertext">
+            <h1>Enter Text</h1>
+            <label>
+                <textarea id="enter-text" rows="3" cols="30">Sample Text</textarea>
+            </label>
+        </div>
+        </section>
+        <section id="headline-display">
+            <h1 id="display"></h1>
+        </section>
+        <section id="data-output">
+            <pre><code>.headline {
+                font-size: <span id="show-size">16</span>px;
+                font-family: <span id="show-font">Times</span>;
+                color: <span id="show-color">#000</span>;
+                background-color: <span id="show-bg-color">#fff</span>;
+            }</code></pre>
+        </section>
+    </div>
 <script src="script.js"></script>    
 </body>
 </html>
