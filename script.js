@@ -15,7 +15,7 @@ const showBgColor = document.querySelector('#show-bg-color')
 //input function
 function handleInput() {
     const fontSize = size.value
-    display.style['font-size'] = fontSize
+    display.style['font-size'] = fontSize + "px"
     showSize.innerHTML = fontSize
     
     const fontType = font.value
