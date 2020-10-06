@@ -7,11 +7,12 @@
     <title>Ryan Lee - Final - Web 1.0</title>
 </head>
 <body>
+    <section id="student-info">
+        <h1>Ryan Lee</h1>
+        <p>My favorite color is purple and I wear Vans</p>
+    </section>
+   <div class="parentbox"> 
     <div class="form-box">
-        <section id="student-info">
-            <h1>Ryan Lee</h1>
-            <p>My favorite color is purple and I wear Vans</p>
-        </section>
         <section id="data-input">
         <div class="fontsize">
             <h1>Font Styler</h1>
@@ -20,7 +21,7 @@
             </label>
         </div>
         <div class="fontfamily">
-            <h1>Font Family</h1>
+            <h2>Font Family</h2>
             <label>
                 <select name="font-family" id="select-font">
                     <option value="helvetica">Helvetica</option>
@@ -31,28 +32,31 @@
             </label>
         </div>
         <div class="fontcolor">
-            <h1>Font Color</h1>
+            <h2>Font Color</h2>
             <label>
                 <input type="color" id="input-color" value="#000">
             </label>
         </div>
         <div class="bgcolor">
-            <h1>Background Color</h1>
+            <h2>Background Color</h2>
             <label>
                 <input type="color" id="input-bg-color" value="#fff">
             </label>
         </div>
         <div class="entertext">
-            <h1>Enter Text</h1>
+            <h2>Enter Text</h2>
             <label>
                 <textarea id="enter-text" rows="3" cols="30">Sample Text</textarea>
             </label>
-        </div>
+        </div>   
         </section>
+    </div>
+    <div class="form-box2">
         <section id="headline-display">
-            <h1 id="display"></h1>
+            <h1 id="display">Sample Text</h1>
         </section>
         <section id="data-output">
+            <h1>Font Settings</h1>
             <pre><code>.headline {
                 font-size: <span id="show-size">16</span>px;
                 font-family: <span id="show-font">Times</span>;
@@ -61,6 +65,7 @@
             }</code></pre>
         </section>
     </div>
+   </div> 
 <script src="script.js"></script>    
 </body>
 </html>
