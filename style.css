@@ -31,3 +31,8 @@ p, h2 {
     display:flex;
     flex-direction: row;
 }
+.headline-box {
+    display: flex;
+    border: solid 3px black;
+    justify-content: center;
+}
